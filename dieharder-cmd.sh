@@ -1,7 +1,7 @@
 #! /usr/bin/env bash
 
 INPUT=qrng_raw_1e7.bin
-OUTPUT=qrng_raw_1e7.results.txt
+OUTPUT=qrng_raw_1e7.res.txt
 
 # Overwrite variables if arguments were provided
 if [ ! -z "$1" ]; then
